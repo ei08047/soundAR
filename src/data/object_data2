@@ -1,0 +1,20 @@
+#the number of patterns to be recognized
+3
+
+#pattern 1
+Hiro
+Data/patt.hiro
+80.0
+0.0 0.0
+
+#pattern 2
+Kanji
+Data/patt.kanji
+80.0
+0.0 0.0
+
+#pattern 3
+Tri
+Data/patt.tri
+80.0
+0.0 0.0

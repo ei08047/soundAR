@@ -1,0 +1,25 @@
+Instalação
+vs2013- Esta aplicação usa algumas bibliotecas do ARTOOLKIT e também a biblioteca glut.
+
+ARTOOLKIT : libARgsub.lib;libARgsubd.lib;libAR.lib;libARd.lib;libARvideo.lib;libARgsub_lite.lib;libARgsub_lited.lib
+
+OPENGL : glut32.lib;glu32.lib;opengl32.lib;
+
+outras : kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ws2_32.lib;
+
+__
+
+
+Max/msp - Esta aplicaçao desenvolvida no software MAX/MSP (versao trial em https://cycling74.com/downloads/) 
+necessita de dois ficheiros main.maxpat e main.js.
+
+___
+
+Como usar a aplicação
+Colocar os marcadores da seguinte forma: 'Hiro' no canto superior esquerdo e Kanji no inferior direito de modo a obter um quadrado.
+Colocar o 3º marcador denominado '^' sensivelmente no meio deste. 
+VS Correr a aplicação.
+MAX Fazer load do patch e carregar no botão start(deverá ouvir um som com uma cadencia constante).
+
+Mover o marcador ^ e observar alterações no som e consequentemente na sua forma de onda.
+
